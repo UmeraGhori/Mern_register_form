@@ -1,0 +1,78 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header and Navbar styles */
+  header {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Home page styles */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  /* Additional styling specific to the banking theme can be added here */
+  
